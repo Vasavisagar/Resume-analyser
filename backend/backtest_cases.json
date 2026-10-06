@@ -1,0 +1,39 @@
+[
+  {
+    "name": "strong relevant evidence",
+    "resume": "Summary\nSoftware engineer delivering data services.\nSkills\nPython, SQL, Docker\nExperience\nBuilt reliable Python services and deployed Docker containers for analytics.\nEducation\nBSc Computer Science",
+    "job_description": "Required: Python and SQL. Preferred: Docker. Build reliable analytics software services.",
+    "required_matched": ["python", "sql"],
+    "preferred_matched": ["docker"],
+    "context_evidence": ["python"]
+  },
+  {
+    "name": "alias normalization",
+    "resume": "Experience\nDeveloped NLP pipelines for customer search and language understanding.\nEducation\nBSc Information Technology",
+    "job_description": "Required: Natural Language Processing to build language search features.",
+    "required_matched": ["natural language processing"],
+    "required_missing": []
+  },
+  {
+    "name": "skills-only mentions lack contextual evidence",
+    "resume": "Skills\nPython, SQL\nExperience\nSupported a product team.",
+    "job_description": "Required: Python and SQL for building data products.",
+    "required_matched": ["python", "sql"],
+    "context_evidence": []
+  },
+  {
+    "name": "related framework is not an exact match",
+    "resume": "Experience\nImplemented model training using PyTorch for image classification.",
+    "job_description": "Required: TensorFlow for training image classification models.",
+    "required_matched": [],
+    "required_missing": ["tensorflow"]
+  },
+  {
+    "name": "required and preferred are separated",
+    "resume": "Experience\nBuilt APIs using Python and SQL for internal teams.",
+    "job_description": "Required: Python and SQL. Preferred: Kubernetes and Terraform for deployment.",
+    "required_matched": ["python", "sql"],
+    "required_missing": [],
+    "preferred_missing": ["kubernetes"]
+  }
+]
